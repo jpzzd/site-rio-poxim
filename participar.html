@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Participar | Remo pelo Poxim</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="menu"><a class="logo" href="index.html">🚣 Remo pelo Poxim</a><nav>
+<a href="index.html">Início</a><a href="problema.html">O Rio Poxim</a><a href="remo.html">O papel do remo</a><a href="acoes.html">Experiência e ações</a><a href="participar.html" class="ativo">Participar</a>
+</nav></header>
+<main>
+<section class="pagina-hero"><span>FAÇA PARTE</span><h1>Registre seu interesse.</h1><p>Quer conhecer a proposta, participar de uma experiência ou acompanhar possíveis ações de conservação?</p></section>
+<section class="secao contato">
+<form id="formulario">
+<input type="text" id="nome" placeholder="Seu nome" required>
+<input type="email" id="email" placeholder="Seu e-mail">
+<select id="participacao" required>
+<option value="">Como gostaria de participar?</option>
+<option value="Experiência de remo">Experiência de remo</option>
+<option value="Campanha de coleta">Campanha de coleta</option>
+<option value="Ação de cuidado">Ação de cuidado com o rio</option>
+<option value="Conhecer o projeto">Quero conhecer mais</option>
+</select>
+<textarea id="mensagem" placeholder="Deixe uma mensagem ou sugestão"></textarea>
+<button type="submit" class="botao-principal">Quero participar</button>
+</form>
+<p id="resultado"></p>
+</section>
+</main>
+<footer><div class="logo">🚣 Remo pelo Poxim</div><p>Esporte, sociedade e sustentabilidade.</p><a href="respostas.html" class="link-respostas">Ver respostas</a></footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="script.js"></script>
+</body></html>
